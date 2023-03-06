@@ -62,7 +62,7 @@
     <script>
         const removeTransition = e => {
             if (e.propertyName !== 'transform') return;
-            e.target.classlist.remove('playing');
+            e.target.classList.remove('playing');
         }
 
         const playSound = e => {
